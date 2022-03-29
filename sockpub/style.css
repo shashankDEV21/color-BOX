@@ -1,0 +1,12 @@
+.container{
+    padding: 10px;
+    display: flex;
+    }
+    .colorbox{
+    margin:10px;
+    height:100px;
+    width:100px;
+    border:dotted black 2px;
+    
+    }
+    

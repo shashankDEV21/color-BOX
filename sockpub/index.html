@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script async defer src="/socket.io/socket.io.js"></script> <!--if i remove this from here then I go to inspect element console and type io then we will not get anyhting bcz this client side lib is not available to us -->
+    <script async defer src="client.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    Socket.io Sample<br>
+    <div>Socket Id= <span id="socky"></span></div>
+    
+    <select id="selectid">
+        <option>Red</option>
+        <option>Blue</option>
+        <option>Green</option>
+        <option>Yellow</option>       
+    </select>
+    <button id="btnid">Color it</button>
+    <div class="container">
+        <div class="colorbox Red"></div>
+        <div class="colorbox Blue"></div>
+        <div class="colorbox Green"></div>
+        <div class="colorbox Yellow"></div>
+   </div>
+</body>
+</html>
